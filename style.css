@@ -1,0 +1,21 @@
+#gameCanvas {
+    background-image: url('images/space.jpg');
+    width: 100vw; /* Viewport width */
+    height: 100vh; /* Viewport height */
+    background-size: cover;
+}
+
+#character, #enemy {
+    position: absolute;
+}
+
+#character {
+    background-image: url('images/kindpng_156391.png');
+    left: 50px;
+    bottom: 50px;
+}
+
+#enemy {
+    right: 50px;
+    top: 50px;
+}
